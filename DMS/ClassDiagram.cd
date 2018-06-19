@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DDevice" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAQAAAAAAAAAA=</HashCode>
+      <FileName>DDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DNode" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DShunt" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAEAAgAAAAAAAAAAA=</HashCode>
+      <FileName>DShunt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLoad" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAABAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLoad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DModel" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAABAAAABAAAAAIBAABAAACBAAAAA=</HashCode>
+      <FileName>DModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBranch" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAABAAAACAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>DBranch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPhase" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DPhase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCable" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>DCable.h</FileName>
+      <NewMemberFileName>DSwitch.h</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DSwitch" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAEAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>DSwitch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
