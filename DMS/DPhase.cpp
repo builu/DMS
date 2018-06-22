@@ -1,16 +1,24 @@
 #include "DPhase.h"
 
-DPhase::DPhase(const char* name) : m_name{ name } {};
+using namespace std;
 
-std::ostream& operator<< (std::ostream& os, const DPhase &ph)
+DPhase::DPhase(const char* str)
+{
+	if (isValid(str))
+	{
+		m_phaseCode = String2PhaseCode.at(str);
+	}
+};
+
+ostream& operator<< (ostream& os, const DPhase &ph)
 {
 	os << ph.toString();
 	return os;
 }
 
-std::string DPhase::toString() const
+string DPhase::toString() const
 {
-	std::string str{ "[" + m_name + "]" };
+	string str{ "[" + PhaseCode2String.at(m_phaseCode) + "]" };
 
 	return str;
 }

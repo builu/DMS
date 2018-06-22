@@ -1,8 +1,8 @@
 #pragma once
 #include "DNode.h"
-#include "DDevice.h"
+#include "Equipment.h"
 
-class DShunt : public DDevice
+class DShunt : public Equipment
 {
 private:
 	std::shared_ptr<DNode> m_node;

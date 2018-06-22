@@ -1,68 +1,109 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="DDevice" Collapsed="true">
-    <Position X="2.75" Y="0.5" Width="1.5" />
+  <Class Name="Equipment" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAQAAAAAAAAAA=</HashCode>
-      <FileName>DDevice.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Equipment.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DNode" Collapsed="true">
-    <Position X="9.25" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>EAAAAAAAAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DNode.h</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="DShunt" Collapsed="true">
+  <Class Name="ConnectivityNode" Collapsed="true">
     <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAEAAgAAAAAAAAAAA=</HashCode>
-      <FileName>DShunt.h</FileName>
+      <HashCode>AIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAgAMAAAAAAA=</HashCode>
+      <FileName>ConnectivityNode.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DLoad" Collapsed="true">
-    <Position X="0.5" Y="3.25" Width="1.5" />
+  <Class Name="IdentifiedObject" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAABAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DLoad.h</FileName>
+      <HashCode>sAAAAAAAgAAAAAAQAAAABAAAAAAAAAAAABAAAABAAAA=</HashCode>
+      <FileName>IdentifiedObject.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DModel" Collapsed="true">
-    <Position X="7.5" Y="0.5" Width="1.5" />
+  <Class Name="Terminal" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAAAAAABAAAABAAAAAIBAABAAACBAAAAA=</HashCode>
-      <FileName>DModel.h</FileName>
+      <HashCode>AAEAAAAAAAAABAAAAAAAAAAAAAAAAAAgAAEAAAAAAAA=</HashCode>
+      <FileName>Terminal.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DBranch" Collapsed="true">
-    <Position X="3.75" Y="1.75" Width="1.5" />
+  <Class Name="ConductingEquipment" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAACAAAAAAABAAAACAAAAAAABAAAAAAAAA=</HashCode>
-      <FileName>DBranch.h</FileName>
+      <HashCode>AAAAAQAAAAgAAAAAAAAABQAAAAAAIAAAAAAAAABAAgA=</HashCode>
+      <FileName>ConductingEquipment.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DPhase" Collapsed="true">
-    <Position X="7.5" Y="1.5" Width="1.5" />
+  <Class Name="Jumper" Collapsed="true">
+    <Position X="6.75" Y="6.25" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>EAAAQAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DPhase.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Jumper.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DCable" Collapsed="true">
-    <Position X="5" Y="3.25" Width="1.5" />
+  <Class Name="BaseVoltage" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAIAAA=</HashCode>
-      <FileName>DCable.h</FileName>
-      <NewMemberFileName>DSwitch.h</NewMemberFileName>
+      <HashCode>AAAAAAABAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseVoltage.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DSwitch" Collapsed="true">
-    <Position X="2.75" Y="3.25" Width="1.5" />
+  <Class Name="CompositeSwitch" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAABAAEAAAAAAAQAAAAAAAAAAA=</HashCode>
-      <FileName>DSwitch.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositeSwitch.h</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="CurrentFlow" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAIAAAAAAAAAQAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>CurrentFlow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fuse" Collapsed="true">
+    <Position X="4.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Fuse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Switch" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Switch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Voltage" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAoAAAAAAAAAQAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Voltage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PhaseCode" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABIAAAAAAAAAGgAABgAAAAAoBEAAAI=</HashCode>
+      <FileName>PhaseCode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnitMultiplier" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAACAAAAAAAAAABCEkkAACAIEAAA=</HashCode>
+      <FileName>UnitMultiplier.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnitSymbol" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgAIAAAAAAAAAAAAgAAAAAAACBAAAAAKMECZAAA=</HashCode>
+      <FileName>UnitSymbol.h</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

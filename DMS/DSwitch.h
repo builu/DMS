@@ -1,7 +1,7 @@
 #pragma once
-#include "DBranch.h"
+#include "ConductingEquipment.h"
 
-class DSwitch : public DBranch
+class DSwitch : public ConductingEquipment
 {
 private:
 

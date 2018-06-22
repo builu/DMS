@@ -1,7 +1,7 @@
 #pragma once
 #include <memory>
 #include <map>
-#include "DDevice.h"
+#include "Equipment.h"
 #include "DNode.h"
 #include "DPhase.h"
 
@@ -11,7 +11,7 @@ class DModel
 
 private:
 
-	static std::map<std::string, std::shared_ptr<DDevice>> m_devices;
+	static std::map<std::string, std::shared_ptr<Equipment>> m_devices;
 	static std::map<std::string, std::shared_ptr<DNode>> m_nodes;
 	static std::map<std::string, std::shared_ptr<DPhase>> m_phases;
 
@@ -23,7 +23,7 @@ public:
 	bool addLoad(const char* name, const char *phase, const char* nodeName, double P, double Q);
 	bool addInjection(const char* name, const char *phase, const char* nodeName);
 	bool addSwitch(const char* name, const char *phase, const char* nodeName1, const char* nodeName2, double iRating);
-	bool addCable(const char* name, const char *phase, const char* nodeName1, const char* nodeName2, double length);
+	bool adConductor(const char* name, const char *phase, const char* nodeName1, const char* nodeName2, double length);
 };
 
 

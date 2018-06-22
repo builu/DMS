@@ -4,7 +4,7 @@ using namespace std;
 
 DInjection::DInjection(const char* name, std::shared_ptr<DPhase> phase, std::shared_ptr<DNode> node) : DShunt{ name, phase, node } {}
 
-std::string DInjection::toString() const
+string DInjection::toString() const
 {
 	std::string str{ DShunt::toString() };
 

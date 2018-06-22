@@ -2,12 +2,12 @@
 
 using namespace std;
 
-DSwitch::DSwitch(const char *name, std::shared_ptr<DPhase> phase, std::shared_ptr<DNode> node1, std::shared_ptr<DNode> node2, double iRating) :
-	DBranch{ name, phase, node1, node2 }, m_iRating{ iRating } {};
+DSwitch::DSwitch(const char *name, shared_ptr<DPhase> phase, shared_ptr<DNode> node1, shared_ptr<DNode> node2, double iRating) :
+	ConductingEquipment{ name, phase, node1, node2 }, m_iRating{ iRating } {};
 
-std::string DSwitch::toString() const
+string DSwitch::toString() const
 {
-	std::string str{ DBranch::toString() + "[" + to_string(m_iRating) + "]"};
+	string str{ ConductingEquipment::toString() + "[" + to_string(m_iRating) + "]" };
 
 	return str;
 }

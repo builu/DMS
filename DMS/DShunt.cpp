@@ -1,10 +1,12 @@
 #include "DShunt.h"
 
-DShunt::DShunt(const char* name, std::shared_ptr<DPhase> phase, std::shared_ptr<DNode> node) : DDevice{ name, phase }, m_node{ node } {}
+using namespace std;
 
-std::string DShunt::toString() const
+DShunt::DShunt(const char* name, shared_ptr<DPhase> phase, shared_ptr<DNode> node) : Equipment{ name, phase }, m_node{ node } {}
+
+string DShunt::toString() const
 {
-	std::string str{ DDevice::toString() + m_node->toString() };
+	string str{ Equipment::toString() + m_node->toString() };
 
 	return str;
 }

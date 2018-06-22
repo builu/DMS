@@ -1,20 +1,47 @@
 #include <iostream>
-#include "DModel.h"
+#include <string>
+#include "PhaseCode.h"
+#include "UnitSymbol.h"
 
 using namespace std;
 
-int main()
+static void testPhaseCode()
 {
-	DModel md;
+	PhaseCode ph = PhaseCode::ABCN;
 
-	md.addInjection("IJ1", "ABC", "ND1");
-	md.addLoad("LD1", "ABCN", "ND20", 6.5, 4.1);
-	md.addSwitch("SW1", "ABC", "ND1", "ND2", 650);
-	md.addCable("CB1", "BC", "ND2", "ND3", 50);
+	cout << ph << endl;
 
-	cout << md << endl;
+	ph = PhaseSrv::toPhaseCode("BC");
 
-	
-	std::cin.get();
-	return 0;
+	cout << ph << endl;
+
+	ph = PhaseSrv::toPhaseCode("BCXX");
+
+	cout << ph << endl;
+
+	cout << PhaseSrv::toString(PhaseCode::AB) << endl;
+}
+
+static void testUnitSymbol()
+{
+    UnitSymbol us = UnitSymbol::deg;
+
+    cout << us << endl;
+
+    us = stringToUnitSymbol("BC");
+
+    cout << us << endl;
+
+    us = stringToUnitSymbol("V"); 
+
+    cout << us << endl;
+
+    cout << unitSymbolToString(us) << endl;
+}
+
+
+void runTest()
+{
+	testPhaseCode();
+    testUnitSymbol();
 }
