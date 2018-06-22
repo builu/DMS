@@ -115,29 +115,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DBranch.h" />
-    <ClInclude Include="DCable.h" />
-    <ClInclude Include="DDevice.h" />
-    <ClInclude Include="DInjection.h" />
-    <ClInclude Include="DLoad.h" />
-    <ClInclude Include="DModel.h" />
-    <ClInclude Include="DNode.h" />
-    <ClInclude Include="DPhase.h" />
-    <ClInclude Include="DShunt.h" />
-    <ClInclude Include="DSwitch.h" />
+    <ClInclude Include="BaseVoltage.h" />
+    <ClInclude Include="CompositeSwitch.h" />
+    <ClInclude Include="ConductingEquipment.h" />
+    <ClInclude Include="ConnectivityNode.h" />
+    <ClInclude Include="CurrentFlow.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="Fuse.h" />
+    <ClInclude Include="Jumper.h" />
+    <ClInclude Include="Switch.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="IdentifiedObject.h" />
+    <ClInclude Include="PhaseCode.h" />
+    <ClInclude Include="Terminal.h" />
+    <ClInclude Include="UnitMultiplier.h" />
+    <ClInclude Include="UnitSymbol.h" />
+    <ClInclude Include="Voltage.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DBranch.cpp" />
-    <ClCompile Include="DCable.cpp" />
-    <ClCompile Include="DDevice.cpp" />
-    <ClCompile Include="DInjection.cpp" />
-    <ClCompile Include="DLoad.cpp" />
-    <ClCompile Include="DModel.cpp" />
-    <ClCompile Include="DNode.cpp" />
-    <ClCompile Include="DPhase.cpp" />
-    <ClCompile Include="DShunt.cpp" />
-    <ClCompile Include="DSwitch.cpp" />
+    <ClCompile Include="BaseVoltage.cpp" />
+    <ClCompile Include="CompositeSwitch.cpp" />
+    <ClCompile Include="ConductingEquipment.cpp" />
+    <ClCompile Include="ConnectivityNode.cpp" />
+    <ClCompile Include="CurrentFlow.cpp" />
+    <ClCompile Include="Equipment.cpp" />
+    <ClCompile Include="Fuse.cpp" />
+    <ClCompile Include="IdentifiedObject.cpp" />
+    <ClCompile Include="Jumper.cpp" />
+    <ClCompile Include="PhaseCode.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Switch.cpp" />
+    <ClCompile Include="Terminal.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="UnitMultiplier.cpp" />
+    <ClCompile Include="UnitSymbol.cpp" />
+    <ClCompile Include="Voltage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

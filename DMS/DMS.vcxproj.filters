@@ -15,34 +15,52 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DPhase.h">
+    <ClInclude Include="Equipment.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DDevice.h">
+    <ClInclude Include="PhaseCode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DNode.h">
+    <ClInclude Include="IdentifiedObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DShunt.h">
+    <ClInclude Include="ConnectivityNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DBranch.h">
+    <ClInclude Include="Terminal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DLoad.h">
+    <ClInclude Include="test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DSwitch.h">
+    <ClInclude Include="UnitSymbol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DModel.h">
+    <ClInclude Include="Jumper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DCable.h">
+    <ClInclude Include="ConductingEquipment.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DInjection.h">
+    <ClInclude Include="UnitMultiplier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Voltage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseVoltage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentFlow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeSwitch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -50,34 +68,52 @@
     <ClCompile Include="test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DPhase.cpp">
+    <ClCompile Include="Equipment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DDevice.cpp">
+    <ClCompile Include="IdentifiedObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DNode.cpp">
+    <ClCompile Include="ConnectivityNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DShunt.cpp">
+    <ClCompile Include="Terminal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DBranch.cpp">
+    <ClCompile Include="PhaseCode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DLoad.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DSwitch.cpp">
+    <ClCompile Include="UnitSymbol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DModel.cpp">
+    <ClCompile Include="Jumper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DCable.cpp">
+    <ClCompile Include="ConductingEquipment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DInjection.cpp">
+    <ClCompile Include="UnitMultiplier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Voltage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseVoltage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fuse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentFlow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeSwitch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
